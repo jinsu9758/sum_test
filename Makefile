@@ -10,6 +10,6 @@ main.o: sum.h main.cpp
 sum.o: sum.h sum.cpp
 	g++ -c -o sum.o sum.cpp
 clean:
-	rm -f sum-test
+	rm -f sum_test
 	rm -f *.o
 
